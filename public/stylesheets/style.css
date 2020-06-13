@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: hsla(230, 7%, 84%, 0.12)
+}
+
+#title {
+  font-size: 1.3em;
+  text-align: center;
+  color: #1e89f7;
+}
+
+#reviewForm {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+#reviewForm #review {
+  width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#reviewForm #review:focus {
+  border-color: #00367c;
+  box-shadow: 2em;
+  outline: none;
+}
+
+#emojiSection {
+  text-align: center;
+  margin-top: 100px;
+}
